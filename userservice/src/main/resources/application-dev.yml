@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: mongodb://34.100.165.148:27017/userdb
+server:
+  port: 8001
+app:
+  client:
+    auth-service: http://localhost:8002

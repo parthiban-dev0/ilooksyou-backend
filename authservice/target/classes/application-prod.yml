@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: auth-service
+  security:
+    user:
+      name: admin
+      password: admin
+  data:
+    mongodb:
+      uri: mongodb://34.100.165.148:27017/tokendb
+server:
+  port: 8080
+oauth:
+  google:
+    client-id: 283030289818-ocsssm9ui5dbiqlkv7f1jkqn61ja9q23.apps.googleusercontent.com
+    client-secret: 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
+app:
+  client:
+    user-service: http://35.244.33.113:8080

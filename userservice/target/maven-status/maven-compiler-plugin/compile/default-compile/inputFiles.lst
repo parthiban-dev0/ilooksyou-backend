@@ -1,0 +1,16 @@
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\dto\UserResponse.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\repository\UserRepository.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\service\UserServiceImpl.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\client\AuthServiceClient.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\service\MessageResponse.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\exception\GlobalException.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\controller\UserController.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\UserServiceApplication.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\controller\AuthInterceptor.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\service\UserService.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\exception\ErrorDetails.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\dto\UserRequest.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\dto\UserDto.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\exception\UserException.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\config\CommonConfig.java
+C:\Parthiban\Projects\ilooksyou-backend\userservice\src\main\java\com\ilooksyou\model\User.java
