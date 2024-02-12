@@ -1,4 +1,10 @@
 package com.ilooksyou.model.dto;
 
-public record TemplateRequest(String title, String htmlContent) {
+import jakarta.validation.constraints.NotNull;
+
+public record TemplateRequest(
+        @NotNull(message = "Title is required")
+        String title,
+        @NotNull(message = "Html content is required")
+        String htmlContent) {
 }

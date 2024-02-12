@@ -26,4 +26,5 @@ public class TemplateServiceImpl implements TemplateService{
         Template savedTemplate = this.templateRepository.save(template);
         return savedTemplate;
     }
+
 }
