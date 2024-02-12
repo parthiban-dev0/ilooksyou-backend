@@ -1,0 +1,7 @@
+com\ilooksyou\config\AppConfig.class
+com\ilooksyou\message\dto\GeneralMessageRequest.class
+com\ilooksyou\service\SenderServiceImpl.class
+com\ilooksyou\service\SenderService.class
+com\ilooksyou\controller\NotificationController.class
+com\ilooksyou\message\GeneralMessage.class
+com\ilooksyou\NotificationService.class

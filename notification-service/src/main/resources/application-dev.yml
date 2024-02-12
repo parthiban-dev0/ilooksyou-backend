@@ -1,0 +1,4 @@
+server:
+  port: 8003
+kafka:
+  brokerUrls: localhost:9092

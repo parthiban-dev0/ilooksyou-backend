@@ -1,0 +1,5 @@
+com\ilooksyou\config\AppConfig.class
+com\ilooksyou\message\dto\GeneralMessageRequest.class
+com\ilooksyou\message\GeneralMessage.class
+com\ilooksyou\NotificationWorker.class
+com\ilooksyou\service\ReceiverService.class

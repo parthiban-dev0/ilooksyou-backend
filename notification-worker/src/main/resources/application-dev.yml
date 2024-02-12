@@ -1,0 +1,6 @@
+server:
+  port: 8004
+kafka:
+  concurrency: 2
+  brokerUrls: localhost:9092
+  groupId: notify
