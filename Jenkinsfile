@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Docker Build'){
             steps {
-                sh 'docker build -t authservice:v4 ./authservice/'
+                bat 'docker build -t authservice:v4 ./authservice/'
             }
         }
     }
