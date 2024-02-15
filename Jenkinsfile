@@ -14,10 +14,14 @@ pipeline {
             steps {
                 bat ''' docker build -t %DOCKER_LOCAL_IMAGE% ./authservice/ '''
                 bat ''' docker tag %DOCKER_LOCAL_IMAGE% %DOCKER_REMOTE_IMAGE% '''
+            }
+        }
+        stage('Docker Push'){
+            steps {
+                bat ''' docker login -u parthiban0 -p Parthiban@12345 '''
                 bat ''' docker push %DOCKER_REMOTE_IMAGE% '''
             }
         }
-
         stage('Deploy'){
             steps {
                 bat '''gcloud auth activate-service-account --key-file=%GCLOUD_CREDS%'''
