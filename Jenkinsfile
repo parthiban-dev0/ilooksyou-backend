@@ -8,6 +8,7 @@ pipeline {
         SSH_PATH = 'C:\\Users\\Gspl\\.ssh\\google_compute_engine'
         DOCKER_LOCAL_IMAGE = 'auth-service:v4'
         DOCKER_REMOTE_IMAGE = 'parthiban0/auth-service:v4'
+        CLIENT_EMAIL = 'jenkins-gcloud@looksyou-412005.iam.gserviceaccount.com'
     }
     stages{
         stage('Docker Build And Push'){
@@ -27,6 +28,11 @@ pipeline {
                 bat '''gcloud auth activate-service-account --key-file=%GCLOUD_CREDS%'''
                 bat '''gcloud compute ssh %VM_NAME% --command="docker pull %DOCKER_REMOTE_IMAGE% && docker ps -aq | xargs docker stop | xargs docker rm && docker run -d -p 8080:8080 %DOCKER_REMOTE_IMAGE%" --zone=%ZONE% --ssh-key-file=%SSH_PATH%'''
             }
+        }
+    }
+    post {
+        always {
+            bat ''' gcloud auth revoke %CLIENT_EMAIL% '''
         }
     }
 }
