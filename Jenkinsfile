@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages{
         step {
-            docker build -t authservice:v4 ./authservice/
+            sh 'docker build -t authservice:v4 ./authservice/'
         }
     }
 }
